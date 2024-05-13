@@ -1,0 +1,568 @@
+2024-05-09 09:10:03.284 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 09:10:03.339 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 57.3136ms
+2024-05-09 09:10:03.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 09:10:03.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 09:10:03.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.5313ms
+2024-05-09 09:10:03.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.97ms
+2024-05-09 09:10:03.484 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 09:10:03.495 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6753ms
+2024-05-09 09:48:27.852 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/lxp/view/learnerProfile/0061e4fe-5fde-4c10-8be1-3f9e20dadaf2 - null null
+2024-05-09 09:48:27.868 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 09:48:27.872 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GetLearnerProfileById (LXP.Api)'
+2024-05-09 09:48:27.901 +05:30 [INF] Route matched with {action = "GetLearnerProfileById", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLearnerProfileById(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 09:48:30.574 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-09 09:48:30.653 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GetLearnerProfileById (LXP.Api) in 2746.3873ms
+2024-05-09 09:48:30.655 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GetLearnerProfileById (LXP.Api)'
+2024-05-09 09:48:30.658 +05:30 [INF] HTTP GET /lxp/view/learnerProfile/0061e4fe-5fde-4c10-8be1-3f9e20dadaf2 responded 200 in 2790.1895 ms
+2024-05-09 09:48:30.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/lxp/view/learnerProfile/0061e4fe-5fde-4c10-8be1-3f9e20dadaf2 - 200 null application/json; charset=utf-8 2808.9635ms
+2024-05-09 09:48:59.183 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 09:48:59.204 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 20.8074ms
+2024-05-09 09:48:59.215 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 09:48:59.215 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 09:48:59.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.1758ms
+2024-05-09 09:48:59.229 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.815ms
+2024-05-09 09:48:59.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 09:48:59.296 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.407ms
+2024-05-09 10:03:43.304 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - multipart/form-data; boundary=----WebKitFormBoundarySs8UjciNPj4RSKeM 1065
+2024-05-09 10:03:43.308 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 10:03:43.314 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 10:03:43.551 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-09 10:03:43.558 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 241.202ms
+2024-05-09 10:03:43.559 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 10:03:43.560 +05:30 [INF] HTTP POST /lxp/learner/registration responded 200 in 252.4639 ms
+2024-05-09 10:03:43.562 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 200 null application/json; charset=utf-8 257.8448ms
+2024-05-09 10:06:54.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 10:06:54.699 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 11.3252ms
+2024-05-09 10:06:54.716 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 10:06:54.717 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 10:06:54.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.4512ms
+2024-05-09 10:06:54.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4993ms
+2024-05-09 10:06:54.921 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 10:06:54.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.5406ms
+2024-05-09 10:21:44.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 10:21:44.730 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 10.2362ms
+2024-05-09 10:21:44.745 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 10:21:44.745 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 10:21:44.747 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.9094ms
+2024-05-09 10:21:44.763 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.9887ms
+2024-05-09 10:21:44.832 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 10:21:44.840 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.9061ms
+2024-05-09 10:26:03.653 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 10:26:03.691 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 10:26:03.692 +05:30 [INF] Hosting environment: Development
+2024-05-09 10:26:03.694 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 10:26:05.454 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 10:26:06.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 586.3629ms
+2024-05-09 10:26:06.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 10:26:06.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 10:26:06.062 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.0374ms
+2024-05-09 10:26:06.103 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0058ms
+2024-05-09 10:26:06.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 10:26:06.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.3313ms
+2024-05-09 10:30:09.787 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 10:30:09.814 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 32.7839ms
+2024-05-09 10:30:09.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 10:30:09.852 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.8862ms
+2024-05-09 10:30:09.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 10:30:09.908 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2443ms
+2024-05-09 10:30:10.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 10:30:10.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2966ms
+2024-05-09 10:54:37.541 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 10:54:37.575 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 10:54:37.577 +05:30 [INF] Hosting environment: Development
+2024-05-09 10:54:37.578 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 10:54:39.446 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 10:54:40.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 601.2307ms
+2024-05-09 10:54:40.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 10:54:40.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 10:54:40.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.1492ms
+2024-05-09 10:54:40.099 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2268ms
+2024-05-09 10:54:40.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 10:54:40.332 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.5858ms
+2024-05-09 10:57:27.448 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=Keerthivasan28092001%40gmail.com - null 0
+2024-05-09 10:57:27.492 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 10:57:27.499 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 10:57:27.515 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 10:57:30.983 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 10:57:30.992 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3472.0163ms
+2024-05-09 10:57:30.994 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 10:57:30.996 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3507.2781 ms
+2024-05-09 10:57:30.997 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=Keerthivasan28092001%40gmail.com - 200 null application/json; charset=utf-8 3549.1215ms
+2024-05-09 10:58:01.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=keerthivasan28092001%40gmail.com&userOTP=691922 - null null
+2024-05-09 10:58:01.384 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 10:58:01.386 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyOTP(System.String, System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 10:58:01.396 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-05-09 10:58:01.397 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api) in 10.382ms
+2024-05-09 10:58:01.400 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 10:58:01.401 +05:30 [INF] HTTP GET /api/Registration/VerifyOTP responded 400 in 17.0929 ms
+2024-05-09 10:58:01.402 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=keerthivasan28092001%40gmail.com&userOTP=691922 - 400 null text/plain; charset=utf-8 53.8644ms
+2024-05-09 10:58:21.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=Keerthivasan28092001%40gmail.com&userOTP=691922 - null null
+2024-05-09 10:58:21.411 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 10:58:21.414 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyOTP(System.String, System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 10:58:21.421 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-09 10:58:21.423 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api) in 6.3459ms
+2024-05-09 10:58:21.424 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 10:58:21.425 +05:30 [INF] HTTP GET /api/Registration/VerifyOTP responded 200 in 13.5265 ms
+2024-05-09 10:58:21.426 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=Keerthivasan28092001%40gmail.com&userOTP=691922 - 200 null text/plain; charset=utf-8 30.2579ms
+2024-05-09 11:00:01.548 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 11:00:01.591 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 11:00:01.593 +05:30 [INF] Hosting environment: Development
+2024-05-09 11:00:01.595 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 11:00:03.968 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:00:04.636 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 674.6469ms
+2024-05-09 11:00:04.644 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:00:04.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.2325ms
+2024-05-09 11:00:04.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:00:04.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.912ms
+2024-05-09 11:00:04.811 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:00:04.916 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.8051ms
+2024-05-09 11:04:58.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:04:58.674 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 28.356ms
+2024-05-09 11:04:58.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:04:58.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:04:58.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 13.0914ms
+2024-05-09 11:04:58.731 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5037ms
+2024-05-09 11:04:58.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:04:58.841 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.0572ms
+2024-05-09 11:31:56.045 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 11:31:56.092 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 11:31:56.095 +05:30 [INF] Hosting environment: Development
+2024-05-09 11:31:56.096 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 11:31:58.543 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:31:59.333 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 797.5435ms
+2024-05-09 11:31:59.358 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:31:59.359 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:31:59.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.2908ms
+2024-05-09 11:31:59.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.7833ms
+2024-05-09 11:31:59.578 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:31:59.710 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.3513ms
+2024-05-09 11:33:51.316 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - multipart/form-data; boundary=----WebKitFormBoundary57czKFJKrozTSzZ0 965
+2024-05-09 11:33:51.335 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 11:33:51.341 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:33:51.369 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 11:33:54.295 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-09 11:33:54.306 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 2929.1835ms
+2024-05-09 11:33:54.309 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:33:54.312 +05:30 [INF] HTTP POST /lxp/learner/registration responded 200 in 2977.8616 ms
+2024-05-09 11:33:54.314 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 200 null application/json; charset=utf-8 2998.8909ms
+2024-05-09 11:34:41.460 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:34:41.535 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 75.3589ms
+2024-05-09 11:34:41.589 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:34:41.591 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:34:41.619 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 30.3063ms
+2024-05-09 11:34:41.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.4434ms
+2024-05-09 11:34:41.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:34:41.882 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.7112ms
+2024-05-09 11:35:58.066 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=Rubanchinna%40gmail.com - null 0
+2024-05-09 11:35:58.083 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 11:35:58.088 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 11:36:01.583 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 11:36:01.595 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3504.2362ms
+2024-05-09 11:36:01.602 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 11:36:01.611 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3528.4762 ms
+2024-05-09 11:36:01.623 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=Rubanchinna%40gmail.com - 200 null application/json; charset=utf-8 3557.7651ms
+2024-05-09 11:36:31.624 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=Rubanchinna%40gmail.com&userOTP=671504 - null null
+2024-05-09 11:36:31.656 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 11:36:31.666 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyOTP(System.String, System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 11:36:31.681 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-09 11:36:31.684 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api) in 8.7575ms
+2024-05-09 11:36:31.685 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 11:36:31.687 +05:30 [INF] HTTP GET /api/Registration/VerifyOTP responded 200 in 31.6179 ms
+2024-05-09 11:36:31.689 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=Rubanchinna%40gmail.com&userOTP=671504 - 200 null text/plain; charset=utf-8 65.4648ms
+2024-05-09 11:36:36.568 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:36:36.599 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 30.5484ms
+2024-05-09 11:36:36.640 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:36:36.646 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:36:36.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 29.6091ms
+2024-05-09 11:36:36.704 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.2151ms
+2024-05-09 11:36:36.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:36:36.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7065ms
+2024-05-09 11:40:09.435 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - multipart/form-data; boundary=----WebKitFormBoundaryAdQAmAN9LggJEoCC 905
+2024-05-09 11:40:09.453 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:40:09.455 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 11:40:09.462 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 11:40:09.492 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 34.7911ms
+2024-05-09 11:40:09.494 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:40:09.496 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 42.9153 ms
+2024-05-09 11:40:09.498 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 66.5434ms
+2024-05-09 11:40:45.383 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - multipart/form-data; boundary=----WebKitFormBoundaryB1U5BPOVkaYbUlMg 959
+2024-05-09 11:40:45.391 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:40:45.393 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 11:40:45.775 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-09 11:40:45.782 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 386.3115ms
+2024-05-09 11:40:45.784 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 11:40:45.786 +05:30 [INF] HTTP POST /lxp/learner/registration responded 200 in 395.1550 ms
+2024-05-09 11:40:45.789 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 200 null application/json; charset=utf-8 406.2249ms
+2024-05-09 11:40:56.583 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:40:56.613 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 30.3148ms
+2024-05-09 11:40:56.633 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:40:56.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:40:56.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.0689ms
+2024-05-09 11:40:56.657 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.2978ms
+2024-05-09 11:40:56.889 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:40:56.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4751ms
+2024-05-09 12:24:15.815 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001%40gmail.com - null 0
+2024-05-09 12:24:15.822 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 12:24:15.824 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 12:24:19.871 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 12:24:19.880 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 4053.3544ms
+2024-05-09 12:24:19.885 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 12:24:19.889 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 4066.9851 ms
+2024-05-09 12:24:19.899 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001%40gmail.com - 200 null application/json; charset=utf-8 4085.9646ms
+2024-05-09 12:24:55.829 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=keerthivasan28092001%40gmail.com&userOTP=999905 - null null
+2024-05-09 12:24:55.842 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 12:24:55.843 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyOTP(System.String, System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 12:24:55.849 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-09 12:24:55.852 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api) in 4.7636ms
+2024-05-09 12:24:55.854 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.VerifyOTP (LXP.Api)'
+2024-05-09 12:24:55.856 +05:30 [INF] HTTP GET /api/Registration/VerifyOTP responded 200 in 13.8129 ms
+2024-05-09 12:24:55.858 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Registration/VerifyOTP?email=keerthivasan28092001%40gmail.com&userOTP=999905 - 200 null text/plain; charset=utf-8 29.8067ms
+2024-05-09 12:34:11.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 12:34:12.009 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 54.7156ms
+2024-05-09 12:34:12.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 12:34:12.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 12:34:12.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 4.6185ms
+2024-05-09 12:34:12.045 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.6438ms
+2024-05-09 12:34:12.298 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 12:34:12.307 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5422ms
+2024-05-09 16:49:29.477 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 16:49:29.535 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 16:49:29.537 +05:30 [INF] Hosting environment: Development
+2024-05-09 16:49:29.538 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 16:49:34.909 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 16:49:36.231 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1328.9153ms
+2024-05-09 16:49:36.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 16:49:36.287 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 16:49:36.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 17.7968ms
+2024-05-09 16:49:36.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.3414ms
+2024-05-09 16:49:36.536 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 16:49:36.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.6882ms
+2024-05-09 22:38:39.241 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 22:38:39.292 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 22:38:39.294 +05:30 [INF] Hosting environment: Development
+2024-05-09 22:38:39.296 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 22:38:45.143 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 22:38:46.010 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 873.8844ms
+2024-05-09 22:38:46.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 22:38:46.029 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.2742ms
+2024-05-09 22:38:46.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 22:38:46.087 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.3303ms
+2024-05-09 22:38:46.232 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 22:38:46.357 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.1013ms
+2024-05-09 22:51:56.320 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 22:51:56.375 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 22:51:56.385 +05:30 [INF] Hosting environment: Development
+2024-05-09 22:51:56.387 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 22:51:58.261 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 22:51:59.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1133.557ms
+2024-05-09 22:51:59.420 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 22:51:59.420 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 22:51:59.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.6069ms
+2024-05-09 22:51:59.466 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.9839ms
+2024-05-09 22:51:59.645 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 22:51:59.771 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.0246ms
+2024-05-09 22:52:17.168 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keethivasan28092001%40gmail.com - null 0
+2024-05-09 22:52:17.191 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 22:52:17.197 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 22:52:17.226 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Email"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateOTP(System.String) on controller LXP.Api.Controllers.EmailController (LXP.Api).
+2024-05-09 22:52:22.003 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 22:52:22.018 +05:30 [INF] Executed action LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api) in 4784.4181ms
+2024-05-09 22:52:22.022 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 22:52:22.026 +05:30 [INF] HTTP POST /api/Email/EmailVerification responded 200 in 4835.8518 ms
+2024-05-09 22:52:22.029 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keethivasan28092001%40gmail.com - 200 null application/json; charset=utf-8 4861.3028ms
+2024-05-09 22:53:01.796 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Email/VerifyOTP?email=keethivasan28092001%40gmail.com&userOTP=316955 - null null
+2024-05-09 22:53:01.838 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.EmailController.VerifyOTP (LXP.Api)'
+2024-05-09 22:53:01.844 +05:30 [INF] Route matched with {action = "VerifyOTP", controller = "Email"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyOTP(System.String, System.String) on controller LXP.Api.Controllers.EmailController (LXP.Api).
+2024-05-09 22:53:01.849 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-09 22:53:01.851 +05:30 [INF] Executed action LXP.Api.Controllers.EmailController.VerifyOTP (LXP.Api) in 4.6586ms
+2024-05-09 22:53:01.853 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.EmailController.VerifyOTP (LXP.Api)'
+2024-05-09 22:53:01.855 +05:30 [INF] HTTP GET /api/Email/VerifyOTP responded 200 in 16.5487 ms
+2024-05-09 22:53:01.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Email/VerifyOTP?email=keethivasan28092001%40gmail.com&userOTP=316955 - 200 null text/plain; charset=utf-8 60.5805ms
+2024-05-09 22:55:17.578 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 22:55:17.689 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 22:55:17.694 +05:30 [INF] Hosting environment: Development
+2024-05-09 22:55:17.699 +05:30 [INF] Content root path: D:\FinalArchitecture2\LXP\LXP.Api
+2024-05-09 22:55:19.822 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 22:55:20.947 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1131.4474ms
+2024-05-09 22:55:20.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 22:55:20.993 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 22:55:21.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.3475ms
+2024-05-09 22:55:21.050 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.5269ms
+2024-05-09 22:55:21.205 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 22:55:21.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.8364ms
+2024-05-09 23:08:43.763 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 23:08:43.825 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 23:08:43.828 +05:30 [INF] Hosting environment: Development
+2024-05-09 23:08:43.829 +05:30 [INF] Content root path: D:\Capstone_Sprint-1_Backend_Final\LXP\LXP.Api
+2024-05-09 23:08:47.312 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 23:08:48.155 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 853.6922ms
+2024-05-09 23:08:48.166 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 23:08:48.174 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 23:08:48.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.185ms
+2024-05-09 23:08:48.334 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 168.1105ms
+2024-05-09 23:08:48.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 23:08:48.612 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 187.7507ms
+2024-05-09 23:09:16.209 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keerthivasan28092001%40gmail.com - null 0
+2024-05-09 23:09:16.256 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 23:09:16.270 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 23:09:16.302 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Email"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateOTP(System.String) on controller LXP.Api.Controllers.EmailController (LXP.Api).
+2024-05-09 23:09:20.336 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:09:20.350 +05:30 [INF] Executed action LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api) in 4040.8391ms
+2024-05-09 23:09:20.354 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 23:09:20.359 +05:30 [INF] HTTP POST /api/Email/EmailVerification responded 200 in 4107.3264 ms
+2024-05-09 23:09:20.363 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keerthivasan28092001%40gmail.com - 200 null application/json; charset=utf-8 4154.285ms
+2024-05-09 23:15:03.838 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 23:15:03.890 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 23:15:03.901 +05:30 [INF] Hosting environment: Development
+2024-05-09 23:15:03.904 +05:30 [INF] Content root path: D:\Capstone_Sprint-1_Backend_Final\LXP\LXP.Api
+2024-05-09 23:15:05.262 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 23:15:06.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 896.5202ms
+2024-05-09 23:15:06.160 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 23:15:06.171 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.6588ms
+2024-05-09 23:15:06.181 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 23:15:06.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4452ms
+2024-05-09 23:15:06.332 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 23:15:06.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.7748ms
+2024-05-09 23:18:00.893 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keerthivasan28092001%40gmail.com - null 0
+2024-05-09 23:18:00.927 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 23:18:00.930 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:18:00.944 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:18:00.951 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 23:18:00.978 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Email"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateOTP(System.String) on controller LXP.Api.Controllers.EmailController (LXP.Api).
+2024-05-09 23:18:07.027 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:18:07.052 +05:30 [INF] Executed action LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api) in 6066.2486ms
+2024-05-09 23:18:07.055 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.EmailController.GenerateOTP (LXP.Api)'
+2024-05-09 23:18:07.058 +05:30 [INF] HTTP POST /api/Email/EmailVerification responded 200 in 6132.4692 ms
+2024-05-09 23:18:07.062 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Email/EmailVerification?email=keerthivasan28092001%40gmail.com - 200 null application/json; charset=utf-8 6169.6171ms
+2024-05-09 23:18:42.616 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - null 0
+2024-05-09 23:18:42.629 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:18:42.630 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:18:42.632 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:18:42.637 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:18:46.061 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:18:46.065 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3424.8499ms
+2024-05-09 23:18:46.068 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:18:46.069 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3440.9130 ms
+2024-05-09 23:18:46.072 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - 200 null application/json; charset=utf-8 3456.1245ms
+2024-05-09 23:19:17.285 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - null 0
+2024-05-09 23:19:17.316 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:19:17.322 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:19:17.328 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:19:17.334 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:19:21.158 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:19:21.168 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3830.1289ms
+2024-05-09 23:19:21.174 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:19:21.175 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3859.3050 ms
+2024-05-09 23:19:21.177 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - 200 null application/json; charset=utf-8 3894.7275ms
+2024-05-09 23:21:45.703 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - multipart/form-data; boundary=----WebKitFormBoundaryRRYpa4eNifvXeX5T 961
+2024-05-09 23:21:45.723 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:21:45.724 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:21:45.725 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:21:45.732 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:21:49.881 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-09 23:21:49.891 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 4157.4474ms
+2024-05-09 23:21:49.894 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:21:49.895 +05:30 [INF] HTTP POST /lxp/learner/registration responded 200 in 4171.8552 ms
+2024-05-09 23:21:49.897 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 200 null application/json; charset=utf-8 4193.7415ms
+2024-05-09 23:22:47.941 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - null 0
+2024-05-09 23:22:47.971 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:22:47.975 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:22:47.981 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:22:47.991 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:22:51.338 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:22:51.343 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3341.47ms
+2024-05-09 23:22:51.347 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:22:51.348 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3377.8492 ms
+2024-05-09 23:22:51.351 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=keerthivasan28092001@gmail.com - 200 null application/json; charset=utf-8 3410.1517ms
+2024-05-09 23:24:17.223 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - null 0
+2024-05-09 23:24:17.235 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:17.236 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:17.237 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:17.239 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:24:17.248 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:24:17.267 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 24.6705ms
+2024-05-09 23:24:17.279 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:17.282 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 47.0156 ms
+2024-05-09 23:24:17.284 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - 400 null application/problem+json; charset=utf-8 60.8387ms
+2024-05-09 23:24:47.137 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - null 0
+2024-05-09 23:24:47.167 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:47.170 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:47.171 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:47.173 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:24:47.180 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:24:47.184 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 7.2ms
+2024-05-09 23:24:47.191 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:47.196 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 29.3459 ms
+2024-05-09 23:24:47.202 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - 400 null application/problem+json; charset=utf-8 65.7703ms
+2024-05-09 23:24:58.089 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - null 0
+2024-05-09 23:24:58.111 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:58.116 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:24:58.123 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:58.129 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:24:58.148 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:24:58.158 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 15.2639ms
+2024-05-09 23:24:58.164 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:24:58.171 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 60.4617 ms
+2024-05-09 23:24:58.181 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - 400 null application/problem+json; charset=utf-8 92.3155ms
+2024-05-09 23:26:10.527 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - null 0
+2024-05-09 23:26:10.553 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:26:10.554 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:26:10.556 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:26:10.558 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:26:10.564 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:26:10.567 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 4.468ms
+2024-05-09 23:26:10.574 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:26:10.575 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 22.6972 ms
+2024-05-09 23:26:10.577 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 50.4206ms
+2024-05-09 23:27:19.437 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - null 0
+2024-05-09 23:27:19.463 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:27:19.465 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:27:19.466 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:27:19.469 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:27:19.473 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:27:19.475 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 3.679ms
+2024-05-09 23:27:19.482 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:27:19.484 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 21.1634 ms
+2024-05-09 23:27:19.486 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 51.1694ms
+2024-05-09 23:28:43.223 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:28:43.249 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:28:43.259 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 10.4333 ms
+2024-05-09 23:28:43.268 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 45.4515ms
+2024-05-09 23:28:43.300 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 236
+2024-05-09 23:28:43.309 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:28:43.310 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:28:43.311 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:28:43.313 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:28:43.318 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:28:43.321 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 5.5991ms
+2024-05-09 23:28:43.324 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:28:43.326 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 16.5181 ms
+2024-05-09 23:28:43.328 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 27.8453ms
+2024-05-09 23:29:25.414 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:29:25.440 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:25.443 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 2.7662 ms
+2024-05-09 23:29:25.445 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 31.3971ms
+2024-05-09 23:29:25.456 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 236
+2024-05-09 23:29:25.458 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:25.459 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:25.460 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:29:25.461 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:29:25.465 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:29:25.467 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 2.9577ms
+2024-05-09 23:29:25.469 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:29:25.470 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 11.6774 ms
+2024-05-09 23:29:25.472 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 15.9112ms
+2024-05-09 23:29:59.774 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:29:59.796 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:59.797 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 1.1415 ms
+2024-05-09 23:29:59.800 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 27.3495ms
+2024-05-09 23:29:59.816 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 236
+2024-05-09 23:29:59.820 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:59.823 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:29:59.825 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:29:59.828 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:29:59.832 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:29:59.834 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 4.1807ms
+2024-05-09 23:29:59.836 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:29:59.837 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 16.9522 ms
+2024-05-09 23:29:59.840 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 24.3203ms
+2024-05-09 23:38:23.505 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - null 0
+2024-05-09 23:38:23.535 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:38:23.540 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:38:23.546 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:38:23.553 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:38:23.561 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:38:23.564 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 5.0503ms
+2024-05-09 23:38:23.574 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:38:23.576 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 40.6985 ms
+2024-05-09 23:38:23.578 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=keerthivasan28092001@gmail.com&Password=Vikram@123&Role=aDmin&CreatedBy=Admin&FirstName=Keerthi&LastName=Vasan&Dob=2024-05-07&Gender=male&ContactNumber=09025704994&Stream=c%23 - 400 null application/problem+json; charset=utf-8 73.7192ms
+2024-05-09 23:42:13.029 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:42:13.055 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:13.060 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 5.0616 ms
+2024-05-09 23:42:13.069 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 40.3111ms
+2024-05-09 23:42:13.103 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 221
+2024-05-09 23:42:13.105 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:13.106 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:13.107 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:42:13.108 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:42:13.113 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:42:13.115 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 3.3931ms
+2024-05-09 23:42:13.117 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:42:13.119 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 13.6909 ms
+2024-05-09 23:42:13.121 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 17.979ms
+2024-05-09 23:42:58.637 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:42:58.659 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:58.661 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 2.7000 ms
+2024-05-09 23:42:58.672 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 35.0249ms
+2024-05-09 23:42:58.696 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 220
+2024-05-09 23:42:58.701 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:58.702 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:42:58.705 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:42:58.706 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:42:58.714 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:42:58.719 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 6.2467ms
+2024-05-09 23:42:58.721 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:42:58.723 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 22.1096 ms
+2024-05-09 23:42:58.727 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 31.4906ms
+2024-05-09 23:44:25.074 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=priyamuruganjan6@gmail.com - null 0
+2024-05-09 23:44:25.083 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:44:25.083 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:44:25.086 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:44:25.087 +05:30 [INF] Route matched with {action = "GenerateOTP", controller = "Registration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateOTP(System.String) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:44:28.716 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 23:44:28.720 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api) in 3631.1225ms
+2024-05-09 23:44:28.728 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.GenerateOTP (LXP.Api)'
+2024-05-09 23:44:28.730 +05:30 [INF] HTTP POST /api/Registration/EmailVerification responded 200 in 3647.2142 ms
+2024-05-09 23:44:28.731 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Registration/EmailVerification?email=priyamuruganjan6@gmail.com - 200 null application/json; charset=utf-8 3657.3013ms
+2024-05-09 23:44:54.220 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:44:54.247 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:44:54.249 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 1.6427 ms
+2024-05-09 23:44:54.251 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 30.6521ms
+2024-05-09 23:44:54.262 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 208
+2024-05-09 23:44:54.265 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:44:54.266 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:44:54.267 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:44:54.269 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:44:54.276 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:44:54.280 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 6.8812ms
+2024-05-09 23:44:54.283 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:44:54.286 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 20.5964 ms
+2024-05-09 23:44:54.290 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 27.1175ms
+2024-05-09 23:46:49.878 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:46:49.906 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:46:49.912 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 6.4448 ms
+2024-05-09 23:46:49.917 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 38.5626ms
+2024-05-09 23:46:49.927 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 208
+2024-05-09 23:46:49.930 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:46:49.931 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:46:49.932 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:46:49.934 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:46:49.937 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:46:49.940 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 3.876ms
+2024-05-09 23:46:49.942 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:46:49.943 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 12.7371 ms
+2024-05-09 23:46:49.945 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 17.6476ms
+2024-05-09 23:50:12.476 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - null null
+2024-05-09 23:50:12.503 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:50:12.509 +05:30 [INF] HTTP OPTIONS /lxp/learner/registration responded 204 in 6.2161 ms
+2024-05-09 23:50:12.518 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5199/lxp/learner/registration - 204 null null 42.0621ms
+2024-05-09 23:50:12.529 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - application/json 208
+2024-05-09 23:50:12.532 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:50:12.533 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:50:12.533 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:50:12.535 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:50:12.539 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:50:12.541 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 2.9043ms
+2024-05-09 23:50:12.542 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:50:12.543 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 11.7204 ms
+2024-05-09 23:50:12.545 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration - 400 null application/problem+json; charset=utf-8 16.5022ms
+2024-05-09 23:55:32.902 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=priyamuruganjan6%40gmail.com&Password=Priya%40123&Role=aDmin&CreatedBy=Admin&FirstName=Mano&LastName=M&Dob=2024-05-08&Gender=male&ContactNumber=09025704994&Stream=c%23 - null 0
+2024-05-09 23:55:32.912 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:55:32.913 +05:30 [INF] CORS policy execution successful.
+2024-05-09 23:55:32.915 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:55:32.916 +05:30 [INF] Route matched with {action = "Registration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Registration(LXP.Common.ViewModels.RegisterUserViewModel) on controller LXP.Api.Controllers.RegistrationController (LXP.Api).
+2024-05-09 23:55:32.922 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-09 23:55:32.925 +05:30 [INF] Executed action LXP.Api.Controllers.RegistrationController.Registration (LXP.Api) in 4.9706ms
+2024-05-09 23:55:32.927 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.RegistrationController.Registration (LXP.Api)'
+2024-05-09 23:55:32.929 +05:30 [INF] HTTP POST /lxp/learner/registration responded 400 in 16.9788 ms
+2024-05-09 23:55:32.933 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/lxp/learner/registration?Email=priyamuruganjan6%40gmail.com&Password=Priya%40123&Role=aDmin&CreatedBy=Admin&FirstName=Mano&LastName=M&Dob=2024-05-08&Gender=male&ContactNumber=09025704994&Stream=c%23 - 400 null application/problem+json; charset=utf-8 31.3703ms

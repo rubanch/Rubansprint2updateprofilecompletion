@@ -1,0 +1,13 @@
+.mobile::-webkit-inner-spin-button,
+.mobile::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.backgroundcontainer{
+    background-color: #524F7D;
+}
+
+.cardcolor{
+    background-color: #a9a7be;
+}
